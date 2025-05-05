@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+
+  --primary: #4f46e5; /* default to indigo */
+  --primary-hover: #4338ca;
+  --secondary: #3b82f6;
+  --secondary-hover: #2563eb;
+  --accent: #4f46e5;
+}
+
+/* Indigo Theme */
+.theme-indigo {
+  --background: linear-gradient(to bottom right, #e0e7ff, #f3e8ff);
+  --foreground: #1e1b4b;
+  --primary: #4f46e5;
+  --primary-hover: #4338ca;
+  --secondary: #3b82f6;
+  --secondary-hover: #2563eb;
+  --accent: #4f46e5;
+}
+
+/* Emerald Theme */
+.theme-emerald {
+  --background: linear-gradient(to bottom right, #d1fae5, #ccfbf1);
+  --foreground: #064e3b;
+  --primary: #059669;
+  --primary-hover: #047857;
+  --secondary: #14b8a6;
+  --secondary-hover: #0d9488;
+  --accent: #059669;
+}
+
+/* Amber Theme */
+.theme-amber {
+  --background: linear-gradient(to bottom right, #fef3c7, #fef9c3);
+  --foreground: #78350f;
+  --primary: #d97706;
+  --primary-hover: #b45309;
+  --secondary: #f97316;
+  --secondary-hover: #ea580c;
+  --accent: #d97706;
+}
+
+/* Rose Theme */
+.theme-rose {
+  --background: linear-gradient(to bottom right, #ffe4e6, #fce7f3);
+  --foreground: #881337;
+  --primary: #e11d48;
+  --primary-hover: #be123c;
+  --secondary: #ec4899;
+  --secondary-hover: #db2777;
+  --accent: #e11d48;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background 0.3s, color 0.3s;
+}
